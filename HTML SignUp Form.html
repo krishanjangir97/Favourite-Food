@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>HTML Sign Up Form</title>
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+        <form>
+            Username:<br>
+            <input type = "text" name = "username">
+            <br>Password:<br>
+            <input type = "password" name ="password">
+            <br>Confirm Password:<br>
+            <input type = "password" name ="confirm-password">
+            <br>
+            Email:<br>
+            <input type = "email" name = "email">
+            <br>
+            Gender:<br>
+            <input type = "radio" name = "male" value = "male">Male
+            <input type = "radio" name = "female" value = "female">Female
+            <input type = "radio" name = "others" value = "others">Others<br>
+            <div>
+                Security Question:<br>
+                <select>
+                    <option value="first-pet-name">What was your first pet name?</option>
+                    <option value = "father's-name">What is your Father's name?</option>
+                    <option value = "school-name">What is your primary school name?</option>
+                </select>
+            </div>
+            <div>
+                <textarea name = "answer" rows = "6" cols = "36"></textarea>
+            </div>
+            <div>
+                <input type = "checkbox" name = "terms-conditions" value="accept">
+                I agree to accept terms and conditions<br>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </body>
+</html>
